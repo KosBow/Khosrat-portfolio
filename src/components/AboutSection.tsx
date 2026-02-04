@@ -32,7 +32,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="/Khosrat-Abobakri-CV.pdf"
+                href="/Khosrat_Abobakri_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Open my CV in a new tab"
