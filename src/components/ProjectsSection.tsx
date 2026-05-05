@@ -29,6 +29,28 @@ const projects = [
     demoUrl: "https://edenstudiobarber.vercel.app/",
     githubUrl: "https://github.com/KosBow/BarberShop-V2",
   },
+  {
+    id: 3,
+    title: "Vaultify",
+    description:
+      "A full-stack desktop application designed for secure management of receipts and warranties. Built with a focus on clean architecture, using DTOs, services, and robust error handling to ensure a scalable and maintainable codebase.",
+    image: "/projects/2.png",
+    tags: [
+     "C#",
+      "React",
+      "TypeScript",
+      "Electron",
+      "MongoDB",
+      "Vite",
+      "Clean Architecture",
+      "DTOs",
+      "Service Layer",
+      "Fullstack Desktop",
+      "Windows App"
+    ],
+    demoUrl: "https://vaultify-one-omega.vercel.app/",
+    githubUrl: "https://github.com/KosBow/Vaultify",
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -45,7 +67,7 @@ export const ProjectsSection = () => {
           `%c[Project Link Checker]`,
           "color:#c084fc;font-weight:700",
           p.title,
-          isAlive ? "ONLINE ✅" : "OFFLINE ❌"
+          isAlive ? "ONLINE ✅" : "OFFLINE ❌",
         );
 
         results[p.id] = isAlive;
